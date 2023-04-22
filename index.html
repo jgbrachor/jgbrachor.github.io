@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="shortcut icon" href="/img/icon.ico" type="image/x-icon">
+  <title>Portfolio</title>
+</head>
+<body>
+  <!--MENU ENCABEZADO-->
+  <div class="contenedor-header">
+    <header>
+      <div class="logo">
+        <a href="#">JBrachor</a>
+      </div>
+      <nav id="nav" class="nav">
+        <ul>
+          <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+          <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+          <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+          <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+          <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+
+  <!--SECCION INICIO-->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="/img/JOSE.png" alt="Imagen Jose Bracho">
+      </div>
+      <h1>JOSE BRACHO R</h1>
+      <h2>Ingeniero de Sistemas</h2>
+      <h2>Desarrollador Junior</h2>
+      <h2>DevOps</h2>
+      <div class="redes">
+        <a href="https://www.facebook.com/jose.bracho.180072" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/tredesnetwork/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://discord.com/channels/@jbrachor82#4625" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://github.com/jgbrachor" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.twitch.tv/jbrachor" target="_bl
+        "><i class="fa-brands fa-twitch"></i></a>
+        <a href="https://www.linkedin.com/in/jose-g-bracho-r-b0b44969/?trk=public_profile-settings_edit-profile-content&originalSubdomain=es" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--SECCION SOBRE MI-->
+<section id="sobremi" class="sobremi">
+  <div class="contenido-sobremi">
+    <h2>Sobre Mí</h2>
+    <p><span>Hola, soy JOSE BRACHO.</span> Ingeniero de Sistemas orientado a las Tecnologías de la Información (TI). Persona emprendedora, proactiva, analítica, organizada, con capacidad de trabajo en equipo y preparación para el aprendizaje continuo. Con diez (10) años de experiencia como soporte de TI a nivel empresarial desempeñando las funciones de administración, mantenimiento, reparación y configuración de servidores, equipos de escritorio, portátiles, dispositivos de red, impresoras, periféricos, tecnologías de ciberseguridad, CCTV, infraestructura, entre otros.</p>
+
+    <div class="fila">
+      <!--DATOS PERSONALES-->
+      <div class="col">
+        <h3>Datos Personales</h3>
+        <ul>
+          <li>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <strong>Teléfono:</strong>
+            +34 613 53 07 23
+          </li>
+          <li>
+            <i class="fa-regular fa-envelope"></i>
+            <strong>Email:</strong>
+            joseg.brachor@gmail.com
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            <strong>Dirección:</strong>
+            Av. San Lazaro 2 - Z/P 41009 Sevilla
+          </li>
+        </ul>
+      </div>
+      <a href="/Curriculum/Curriculum Jose Bracho.pdf"></a>
+      <button>
+        <a href="/Curriculum/Curriculum Jose Bracho.pdf" target="_blank">Descarga CV</a>
+        <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!--SECCION SKILLS-->
+<section class="skills" id="skills">
+  <div class="contenido-seccion">
+    <h2>Skills</h2>
+    <div class="fila">
+      <!--TECHNICALL SKILL-->
+      <div class="col">
+        <h3>Technical Skills</h3>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>AWS</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Bash</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Git Hub</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Ubuntu Server</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>35%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Ingles</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>25%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--CURRICULUM Y EXPERIENCIA DE TRABAJO-->
+<section id="curriculum" class="curriculum">
+  <div class="contenido-seccion">
+    <h2>Curriculum</h2>
+    <div class="fila">
+      <div class="col izquierda">
+        <h3>Educación</h3>
+        <div class="item izq">
+          <h4>Universitaria</h4>
+          <span class="casa">Universidad Dr. Jose Gregorio</span>
+          <span class="fecha">2005 - 2010</span>
+          <p>Una persona que desempeñe esta profesión tiene el deber de desarrollar, diseñar y mejorar distintos sistemas de ingeniería. Los ingenieros en sistemas tienen la capacidad de participar en todos los procesos de diseño, integración, desarrollo, fabricación e incluso marketing. Por eso y mucho más, son personas que necesitan contar con excelentes conocimientos de ingeniería y estas calificados para guiar el desarrollo de diferentes sistemas.</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+        <div class="item izq">
+          <h4>Técnico Superior</h4>
+          <span class="casa">Instituto Universitario de Tecnología READIC-UNIR</span>
+          <span class="fecha">2000 - 2003</span>
+          <p>El Técnico Superior en Electrónica egresado del Instituto Universitario de Tecnología READIC-UNIR es un profesional con habilidades en el área de montaje, instalación, mantenimiento, detección y diagnóstico de fallas en equipos de alta tecnología de comunicaciones, sistemas digitales, instrumentación, procesos de automatización y control; contribuyendo así a la solución de problemas en el contexto laboral y social apoyándose en recursos técnicos para aumentar la eficiencia en la operaciones inherentes.</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+        <div class="item izq">
+          <h4>Bachiller</h4>
+          <span class="casa">Unidad Educativa General Manuel Manrique</span>
+          <span class="fecha">1994 - 1999</span>
+          <p>En Venezuela, se otorga actualmente el título de bachiller de la República al estudiante que completó o bien sea los cinco años de Educación Media General, seis años de Educación Media Técnica o 6 periodos de la Modalidad de Jóvenes, Adultas y Adultos, más los seis años de primaria y uno de inicial del subsistema de educación básica en el país.</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col derecha">
+        <h3>Experiencia de Trabajo</h3>
+        <div class="item der">
+          <h4>IT Manager</h4>
+          <span class="casa">Inversiones Tredes Network, C.A.</span>
+          <span class="fecha">2015 - 2023</span>
+          <p>Diseñó e implementó proyectos de telecomunicaciones, redes inalámbricas, cableado estructurado, sistemas de CCTV y redes WIFI, cultivando relaciones con clientes internos/externos. Dirigió equipos técnicos de hasta ocho miembros.Realizó inspecciones in situ, preparación y estimación de costes e informes técnicos, gestión de recursos, coordinación con proveedores y apoyo técnico a clientes. Diseñó y planificó el calendario del proyecto y la estructura de desglose del trabajo. Supervisó la instalación de torres de telecomunicaciones, proporcionó acceso a Internet y asistencia 24 horas al día, 7 días a la semana, a clientes de zonas urbanas y rurales a través de enlaces inalámbricos.</p>
+          <div class="conectord">
+            <div class="circulod"></div>
+          </div>
+        </div>
+        <div class="item der">
+          <h4>IT Manager</h4>
+          <span class="casa">Aquaventura Park, C.A.</span>
+          <span class="fecha">2011 - 2015</span>
+          <p>Proporcionó asistencia informática y formación técnica sobre Hardware y Software a usuarios finales.
+          Diagnóstico y resolución de problemas con enrutadores, conmutadores, puntos de acceso, ordenadores de sobremesa, impresoras y teléfonos IP, instalación y configuración de sistemas operativos y aplicaciones Windows, Apoyo a la conectividad LAN/WAN y redes inalámbricas. Copias de seguridad de datos de red, mantenimiento de equipos informáticos.</p>
+          <div class="conectord">
+            <div class="circulod"></div>
+          </div>
+        </div>
+        <div class="item der">
+          <h4>IT Technician</h4>
+          <span class="casa">Telnet C.A.</span>
+          <span class="fecha">2009 - 2011</span>
+          <p>Realización de proyectos de telecomunicaciones, redes inalámbricas, cableado estructurado y redes WIFI, inspecciones, estimaciones de costes e informes técnicos, gestión de recursos, coordinación con proveedores y asistencia técnica a clientes. Se y gestionó los costes del presupuesto del proyecto durante todo el ciclo de vida del proyecto. Seguimiento del estado de los proyectos y garantía de que se finalizaban dentro del alcance, el plazo y el presupuesto. Resolución de problemas de la red LAN/WAN de la empresa, realización de copias de seguridad de los datos de los dispositivos de red y documentación de los procedimientos operativos. Realización de un gran proyecto de cableado estructurado con más de 200 puntos de datos, incluida la instalación de bastidores, paneles de conexión, conmutadores, enrutadores, fibra óptica, teléfono y tomas de datos.</p>
+          <div class="conectord">
+            <div class="circulod"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--SECCION PORTFOLIO-->
+<section id="portfolio" class="portfolio">
+  <div class="contenido-seccion">
+    <h2>Portfolio</h2>
+    <div class="galeria">
+      <div class="proyecto">
+        <img src="/img/API-Tiempo.png" alt="Imagen de una API del Clima">
+        <div class="overlay">
+          <h3>API Clima</h3>
+          <p>API Consulta del Clima</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <img src="/img/API-Movie.png" alt="Imagen de una API de Movie">
+        <div class="overlay">
+          <h3>API Movie</h3>
+          <p>API Consulta de Peliculas</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <img src="/img/calculadora.png" alt="Imagen de una Calculadora">
+        <div class="overlay">
+          <h3>Calculadora</h3>
+          <p>Calculadora HTML-CSS-JS</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <img src="/img/Login.png" alt="Imagen de Login">
+        <div class="overlay">
+          <h3>Login</h3>
+          <p>Login</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--SECCION CONTACTO-->
+<section id="contacto" class="contacto">
+  <div class="contenido-seccion">
+    <h2>Contacto</h2>
+    <div class="fila">
+      <!--Formulario-->
+      <div class="col">
+        <input type="text" placeholder="Tú Nombre">
+        <input type="text" placeholder="Número de Teléfono">
+        <input type="text" placeholder="Dirección de Correo">
+        <input type="text" placeholder="Tema">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <button>
+          Enviar <i class="fa-solid fa-paper-plane"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+      <!--Mapa-->
+      <div class="col">
+        <img src="/img/ubicacion.png" alt="Imagen de Ubicación">
+        <div class="info">
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              España - Av. San Lazaro 2 - Z/P 41009 Sevilla
+            </li>
+            <li>
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <strong>Mobil:</strong>
+              +34 613 53 07 23
+            </li>
+            <li>
+              <i class="fa-regular fa-envelope"></i>
+              <strong>Email:</strong>
+              joseg.brachor@gmail.com
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+      <a href="https://www.facebook.com/jose.bracho.180072" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/tredesnetwork/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://discord.com/channels/@jbrachor82#4625" target="_blank"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://github.com/jgbrachor" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.twitch.tv/jbrachor" target="_bl"><i class="fa-brands fa-twitch"></i></a>
+      <a href="https://www.linkedin.com/in/jose-g-bracho-r-b0b44969/?trk=public_profile-settings_edit-profile-content&originalSubdomain=es" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+  <script src="/JavaScripts/main.js"></script>
+</body>
+</html>
